@@ -6,6 +6,7 @@ GitHub does not have a Brazil option within the selected countries when configur
 
 ## How to
 
+- On [GitHub - Settings - Security](https://github.com/settings/security) section, click in `Enable 2FA`
 - Copy and paste the following code in the browser console DevTools (pressing F12 or CTRL + SHIFT + I):
 
 ```js
