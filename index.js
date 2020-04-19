@@ -6,6 +6,6 @@ options
 	.slice(1, options.length)
 	.map(({ innerHTML, value }) => ({ innerHTML, value }))
 	.concat({ innerHTML: 'Brazil +55', value: '+55' })
-	.sort(({ innerHTML }, { innerHTML: nextHTML }) => innerHTML.localeCompare(nextHTML))
+	.sort(({ innerHTML }, { innerHTML: nextInnerHTML }) => innerHTML.localeCompare(nextInnerHTML))
 	.map(({ innerHTML, value }) => Object.assign(document.createElement('option'), { innerHTML, value }))
 	.forEach(option => countryCodes.appendChild(option));
